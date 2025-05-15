@@ -20,7 +20,7 @@ def emotion_detector(text_to_analyze):
         )['emotionPredictions'][0]['emotion']
     return {
         'anger': data['anger'],
-        'digust': data['disgust'],
+        'disgust': data['disgust'],
         'fear': data['fear'],
         'joy': data['joy'],
         'sadness': data['sadness'],
